@@ -7,13 +7,16 @@ index.html
     <title>Dijital Kartvizit</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    color: #000;
+}
         .card {
             background: white;
             padding: 25px;
@@ -21,6 +24,7 @@ index.html
             width: 320px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             text-align: center;
+            box-sizing: border-box;
         }
         h1 {
             margin: 10px 0 5px;
@@ -34,6 +38,7 @@ index.html
             text-align: left;
             font-size: 14px;
             margin-top: 15px;
+            word-wrap: break-word;
         }
         .info p {
             margin: 8px 0;
@@ -56,13 +61,13 @@ index.html
     <div class="title">Ünvan</div>
 
     <div class="info">
-        <p><strong>📞 Telefon:</strong> +90 552 819 18 90</p>
+        <p><strong>📞 Telefon:</strong> +90 543 174 77 07</p>
         <p><strong>🏢 Şirket:</strong> SABDMC Türkiye</p>
         <p><strong>📍 Adres:</strong> Güzeloba Mahallesi, Rauf Denktaş Caddesi No:17/2 D:2, </p>
         <p><strong>✉️ E-posta:</strong> tours@sabdmc.com</p>
     </div>
 
-    <a class="btn" href="tel:+905XXXXXXXXX">📞 Ara</a>
+    <a class="btn" href="tel:+905431747707">📞 Ara</a>
 </div>
 
 </body>
